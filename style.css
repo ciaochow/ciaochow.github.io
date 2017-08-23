@@ -1,0 +1,145 @@
+body {
+  /* font-size: 1em; */
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.masthead-intro, .masthead-heading, .content-footer {
+  text-align: center;
+}
+
+.masthead {
+  padding: 6rem 0;
+  background-image: url('kmanta5.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid .4rem #FFCF33;
+  border-bottom: solid .4rem #FFCF33;
+  text-shadow: 5px 5px 5px #FFF;
+}
+
+.masthead-intro {
+  padding-top: 0.7rem;
+  margin-bottom: 0.1rem;
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2rem;
+ }
+
+.masthead-heading {
+  margin-top: -0.2rem;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 4.3rem;
+  letter-spacing: -0.02rem;
+  text-transform: uppercase;
+}
+
+.introduction, .location, .projects, .questions {
+  max-width: 38rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
+
+.social > li {
+  display: inline-block;
+}
+
+.introduction > p, .location > p, .content-footer > p {
+  /*Typography Declarations */
+  font-weight: 300;
+  letter-spacing: 0.05rem;
+}
+
+.questions > h2 {
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem 0;
+}
+
+section > h1 {
+  margin-top: 2em;
+} 
+
+.projects article a {
+  color: 0E49E8;
+  text-decoration: none;
+}
+
+/* Footer Declarations */
+.content-footer {
+  background-color: #007382;
+  background-size: cover; 
+  position: relative;
+  padding-top: 1.0rem;
+  padding-bottom: 2.8rem;
+  border-top: solid .3rem #FFCF33;
+  border-bottom: solid .3rem #FFCF33;
+}
+
+.content-footer .fa {
+  font-size: 2.7rem;
+  padding: 0px 30px;
+}
+
+.content-footer > .social {
+  margin: 0px 20px; 
+  justify-content: center;
+  padding: 10px 0px;
+  display: flex;
+}
+
+.content-footer > p {
+  font-size: 1.4rem;
+}
+
+.content-footer a {
+  color: #CCC;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #38271e;
+}
+
+/* Responsive Design - under 500px */
+@media screen and (max-width: 500px) {
+  .masthead {
+    padding:  3rem 0;
+    background-image: url('kmanta-500res.jpg');
+    background-repeat: no-repeat;
+  }
+  .masthead-heading {
+    font-size: 1.5rem;
+  }
+  .masthead-intro {
+    font-size: 1rem;
+  }
+  section {
+    padding-left: .3rem;
+    padding-right: .3rem;
+  }
+  .content-footer  {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  .content-footer > p {
+  font-size: 1.5rem;
+  }
+  .questions > h2 {
+    font-size: 1.2rem;
+  }
+  section > h1 {
+    font-size: 1rem;
+  }
+  section > p {
+    font-size: 1rem;
+  }
+  /* .projects li a {
+    font-size: .8em;
+  } */
+  /* .content-footer .fa {
+    font-size: 1.5rem;
+  } */
+}
